@@ -1,2 +1,2 @@
 #!/bin/bash
-CFILE="main.c" | OUTPUT="c" | cpp $CFILE -o $OUTPUT
+gcc -E $CFILE -o c
