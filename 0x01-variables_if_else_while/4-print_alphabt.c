@@ -13,7 +13,7 @@ int main(void)
 {
 	int ch;
 
-	for (ch = 'a'; ch <= 'z';)
+	for (ch = 'a'; ch <= 'z'; ch++)
 	{
 		if (ch != 'e' && ch != 'q')
 		{
