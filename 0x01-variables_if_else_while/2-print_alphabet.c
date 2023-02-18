@@ -3,22 +3,21 @@
 /**
  * main - Entry point
  *
- * Description: The program writes letters a to z, followed by a null character
+ * Description: The program writes letters a to z
  *
  * Return: Always 0 (Success)
  */
 
 int main(void)
 {
-        int ch;
+	int ch;
 
-        for (ch = 'a'; ch <= 'z'; ch++)
-        {
-                putchar(ch);
-        }
+	for (ch = 'a'; ch <= 'z'; ch++)
+	{
+		putchar(ch);
+	}
+	putchar('\n');
 
-        putchar('\0');
-
-        return (0);
+	return (0);
 }
 
