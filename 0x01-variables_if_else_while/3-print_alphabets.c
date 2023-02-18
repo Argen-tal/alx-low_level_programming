@@ -3,9 +3,9 @@
 /**
  * main - Entry point
  *
- * Description: The program prints the alphabets
+ * Description: The program writes letter a to z and A to Z
  *
- * return - Always 0 (Success)
+ * Return: Always 0 (Success)
  */
 int main(void)
 {
