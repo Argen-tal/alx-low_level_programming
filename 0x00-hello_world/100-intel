@@ -1,0 +1,8 @@
+#!/bin/bash
+
+# Set the C file name
+CFILE="main.c"
+
+# Generate the assembly code using gcc and save to output file
+gcc -S -masm=intel "$CFILE" -o "${CFILE%.c}.s"
+
