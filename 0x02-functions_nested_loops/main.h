@@ -1,3 +1,7 @@
+#ifend main_h
+#define main_h
+
+int _putchar(char c)
 void _putchar(void);
 void print_alphabet(void);
 void print_alphabet_x10(void);
@@ -8,4 +12,6 @@ int print_sign(int n);
 int _abs(int);
 int print_last_digit(int);
 void jack_bauer(void);
-void times_table(void)
+void times_table(void);
+
+#endif
