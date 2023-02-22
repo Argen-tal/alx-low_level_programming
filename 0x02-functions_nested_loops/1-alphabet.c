@@ -1,6 +1,8 @@
 #include "main.h"
 
 /**
+ * print_alphabet - Entry point
+ *
  * print_alphabet: The function prints letters
  *
  * Description: writes letter a to z in lowercase
