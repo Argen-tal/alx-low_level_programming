@@ -1,3 +1,5 @@
+#include <stdio.h>
+
 /**
  * print_to_98 - Entry point
  *
@@ -5,30 +7,26 @@
  *
  * @n: is an integer
  */
+
 #include <stdio.h>
-#include "main.h"
 
-void print_to_98(int n);
-
-int main (void)
+void print_to_98(int n)
 {
-	int i;
-
-	if (n <= 98)
-	{
-	for (i = n; i < 98; i++)
-	{
-		printf("%d, ", i);
-	}
-	}
-	else
-	{
-	for (i = n; i > 98; i--)
-	{
-		printf("%d, ", i);
-	}
-	}
-
-	printf("98\n");
+    if (n <= 98) {
+        for (int i = n; i <= 98; i++) {
+            printf("%d", i);
+            if (i < 98) {
+                printf(", ");
+            }
+        }
+    } else {
+        for (int i = n; i >= 98; i--) {
+            printf("%d", i);
+            if (i > 98) {
+                printf(", ");
+            }
+        }
+    }
+    printf("\n");
 }
 
