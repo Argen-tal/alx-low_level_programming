@@ -9,8 +9,11 @@
  * Return: The sum of the two integers
  */
 
-int add(int a, int b);
+int add(int a, int b)
 {
-	return (int a + int b);
+	int a = 5;
+	int b = 5;
 
+	return (a + b);
 }
+
