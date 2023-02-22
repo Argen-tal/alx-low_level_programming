@@ -1,8 +1,11 @@
 #include "main.h"
 
 /**
- * The program writes lowercase a to z
- */
+ * print_alphabet: The function prints letters
+ *
+ * Description: writes letter a to z in lowercase
+ *
+ **/
 
 void print_alphabet(void)
 {
