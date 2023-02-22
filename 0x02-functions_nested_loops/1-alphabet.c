@@ -4,7 +4,7 @@
  * The program writes lowercase a to z
  */
 
-void print_alphabet(void);
+void print_alphabet(void)
 {
 	int ch;
 
@@ -12,5 +12,5 @@ void print_alphabet(void);
 	{
 		_putchar(ch);
 	}
-	return (0);
+	_putchar('\n')
 }
