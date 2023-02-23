@@ -10,7 +10,7 @@
 
 int _isupper(int c)
 {
-	int c = 'A';
+	c = 'A';
 
 	for (c = 'A')
 	{
