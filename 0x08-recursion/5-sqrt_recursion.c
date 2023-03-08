@@ -7,7 +7,7 @@
  *Return: If n does not have a natural square root, the function should return -1
  */
 
-int _sqrt_recursion(int n);
+int _sqrt_recursion(int n)
 {
 	if (n < 0)
 	return (-1);
