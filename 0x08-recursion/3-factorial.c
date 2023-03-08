@@ -1,10 +1,10 @@
 #include "main.h"
 
 /**
- * factorial - Entry point
- * Description: returns the factorial of a given number.
- * @n: factorial to be returned
- * Return: If n is lower than 0, the function should return -1 to indicate an error
+ * factorial - returns the factorial of a number
+ * @n: number to return the factorial from function
+ *
+ * Return: factorial of n
  */
 
 int factorial(int n)
