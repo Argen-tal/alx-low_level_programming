@@ -7,8 +7,7 @@
  * @argv: The number of arguments passed to the program
  * Return: if one number contains symbols that are non digits - 1
  */
-
-int main(int arg, char *argv[])
+int main(int argc, char *argv[])
 {
 int num, digit, sum = 0;
 
