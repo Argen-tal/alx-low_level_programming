@@ -5,7 +5,7 @@
  * Return: Always 0 (Success)
  */
 
-int main(void)
+void print_alphabet(void)
 {
 	char lowercase;
 
@@ -17,5 +17,4 @@ int main(void)
 		lowercase++;
 	}
 	_putchar('\n');
-	return (0);
 }
