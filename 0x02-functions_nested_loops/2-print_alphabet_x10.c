@@ -8,7 +8,7 @@ void print_alphabet_x10(void)
 {
 	int lowercase = 97;
 	int i = 0;
-	int count = 0;
+
 	while (i < 10)
 	{
 
@@ -17,7 +17,6 @@ void print_alphabet_x10(void)
 		_putchar(lowercase);
 
 		lowercase++;
-		count++;
 		}
 	lowercase = 97;
 	_putchar('\n');
