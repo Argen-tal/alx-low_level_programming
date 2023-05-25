@@ -11,11 +11,9 @@ void print_diagonal(int n)
 	int count = 0;
 	char space;
 
-	if (n < 0)
-	{
+	if (n <= 0)
 		_putchar('\n');
-	return;
-	}
+
 	while (count < n)
 	{
 		space = 1;
