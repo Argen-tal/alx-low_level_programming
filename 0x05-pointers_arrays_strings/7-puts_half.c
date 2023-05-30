@@ -15,7 +15,9 @@ void puts_half(char *str)
 	while (str[length] != '\0')
 		length++;
 	/* Check if the length meets the requirments */
-	if (length < 1)
+	if (str == NULL)
+		return;
+	if (length <= 1)
 	{
 		_putchar(str[0]);
 		_putchar('\n');
@@ -25,7 +27,7 @@ void puts_half(char *str)
 	if (*str % 2 == 0)
 		st_index = (length / 2);
 	else
-		st_index = ((length + 1) / 2);
+		st_index = ((length - 1) / 2);
 	/* Print the second half of the string */
 	while (str[st_index] != '\0')
 	{
