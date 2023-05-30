@@ -17,8 +17,6 @@ void puts_half(char *str)
 	/* Check if the length meets the requirments */
 	if (length <= 1)
 	{
-		_putchar(str[0]);
-		_putchar('\n');
 		return;
 	}
 	/* Calculate the starting index of the other half */
@@ -34,17 +32,5 @@ void puts_half(char *str)
 	}
 	/* Print a new line */
 	_putchar('\n');
-	/* check if number of character is odd */
-	if (str[length] % 2 != 0)
-	{
-	/* Calculate the number of character to be printed */
-		int n =  ((length - 1) / 2);
-	/* Print the last n character of the string */
-	while (str[n] != '\0')
-		{
-		_putchar(str[n]);
-		n++;
-		}
-	}
-
 }
+
