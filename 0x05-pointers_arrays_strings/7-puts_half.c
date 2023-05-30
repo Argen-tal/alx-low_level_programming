@@ -17,13 +17,13 @@ void puts_half(char *str)
 	/* Check if the length meets the requirments */
 	if (length <= 1)
 	{
-		return;
+		_putchar('\n');
 	}
 	/* Calculate the starting index of the other half */
-	if (*str % 2 == 0)
-		st_index = (length / 2);
+	if (str[length] % 2 == 0)
+		st_index = length / 2;
 	else
-		st_index = ((length - 1) / 2);
+		st_index = (length - 1) / 2;
 	/* Print the second half of the string */
 	while (str[st_index] != '\0')
 	{
