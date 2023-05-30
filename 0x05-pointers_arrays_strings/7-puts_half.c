@@ -15,8 +15,6 @@ void puts_half(char *str)
 	while (str[length] != '\0')
 		length++;
 	/* Check if the length meets the requirments */
-	if (str == NULL)
-		return;
 	if (length <= 1)
 	{
 		_putchar(str[0]);
