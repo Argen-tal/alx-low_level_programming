@@ -14,7 +14,7 @@ char *_strcpy(char *dest, char *src)
 	char *ptr_dest = dest;
 
 	if (dest == NULL)
-		return NULL;
+		return (NULL);
 
 	while (*src != '\0')
 	{
@@ -24,6 +24,6 @@ char *_strcpy(char *dest, char *src)
 	}
 	*dest = '\0';
 
-	return ptr_dest;
+	return (ptr_dest);
 }
 
