@@ -23,18 +23,18 @@ int _strcmp(char *s1, char *s2)
 		c1 = (unsigned char)s1[i];
 		c2 = (unsigned char)s2[i];
 		if (c1 > c2)
-			return (15);
+			return (1);
 
 		else if (c1 < c2)
-			return (-15);
+			return (-1);
 		i++;
 	}
 	return (0);
 	if (s1[i] == '\0' && s2[i] == '\0')
 		return (0);
 	else if (s2[i] == '\0')
-		return (-15);
+		return (-1);
 	else
-		return (15);
+		return (0);
 
 }
