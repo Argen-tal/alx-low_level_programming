@@ -15,6 +15,7 @@ char *leet(char *str)
 	while (str[i])
 	{
 		int j = 0;
+
 		while (j < 10)
 		{
 			if (str[i] == replacements[j])
@@ -27,6 +28,6 @@ char *leet(char *str)
 		i++;
 	}
 
-	return str;
+	return (str);
 }
 
