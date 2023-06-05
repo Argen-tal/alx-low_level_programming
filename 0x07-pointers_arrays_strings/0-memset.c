@@ -4,6 +4,8 @@
  * @s: pointer to memory area.
  * @b: constant byte to fill.
  * @n: First bytes.
+ *
+ * Return: ptr_s:  pointer to s
  */
 char *_memset(char *s, char b, unsigned int n)
 {
