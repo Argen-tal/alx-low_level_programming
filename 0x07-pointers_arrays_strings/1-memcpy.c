@@ -3,6 +3,7 @@
  * _memcpy - copies memory area.
  * @src: memory aeea.
  * @dest: memory area.(destination)
+ * @n: number of bytes.
  *
  * Return: pointer to dest.
  */
