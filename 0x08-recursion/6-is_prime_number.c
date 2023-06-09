@@ -11,7 +11,7 @@ int is_prime_number(int n)
 	if (n <= 1)
 		return (0);
 
-	return prime_test(n, 2);
+	return (prime_test(n, 2));
 }
 
 /**
@@ -29,6 +29,6 @@ int prime_test(int n, int divisor)
 	if (divisor * divisor > n)
 		return (1);
 
-	return prime_test(n, divisor + 1);
+	return (prime_test(n, divisor + 1));
 }
 
