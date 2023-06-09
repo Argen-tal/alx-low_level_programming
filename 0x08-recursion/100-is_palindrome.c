@@ -9,11 +9,13 @@
 int is_palindrome(char *s)
 {
 	int length = _strlen(s);
+
 	return (is_palindrome_check(s, 0, length - 1));
 }
 
 /**
- * palindrome_check - Recursive helper function to check if a string is a palindrome.
+ * is_palindrome_check - Recursive help function to check if a string
+ * is a palindrome.
  * @s: The string to be checked.
  * @start: The starting index of the string.
  * @end: The ending index of the string.
@@ -42,6 +44,7 @@ int is_palindrome_check(char *s, int start, int end)
 int _strlen(char *s)
 {
 	int length = 0;
+
 	while (*s != '\0')
 	{
 		length++;
