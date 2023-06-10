@@ -1,8 +1,9 @@
 #include <stdio.h>
-#include "main.h"
 #include <stdlib.h>
+#include "main.h"
+
 /**
- * main - multiplies argumebts
+ * main - multiplies arguments
  * @argc: number of arguments
  * @argv: array of arguments
  *
@@ -11,21 +12,21 @@
 int main(int argc, char *argv[])
 {
 	int mul = 1;
-	int i = 0;
+	int i;
 	int num;
 
-	if (argc <= 1)
+	if (argc < 3)
 	{
-		printf("Error");
-
+		printf("Error\n");
 		return (1);
 	}
 	for (i = 1; i < argc; i++)
 	{
-	num = atoi(argv[i]);
-	mul *= num;
+		num = atoi(argv[i]);
+		mul *= num;
 	}
 	printf("%d\n", mul);
 
 	return (0);
 }
+
