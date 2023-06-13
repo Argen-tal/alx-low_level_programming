@@ -28,9 +28,8 @@ char *create_array(unsigned int size, char c)
 	for (i = 0; i < size; i++)
 	{
 		*buffer = c;
+
 		buffer++;
 	}
-	free (ptr_c);
-
-	return (NULL);
+	return (ptr_c);
 }
